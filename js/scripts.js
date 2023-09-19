@@ -2131,10 +2131,10 @@ Function Contact Map
 	function ContactMap() {	
 	
 		if( jQuery('#map_canvas').length > 0 ){					
-			var latlng = new google.maps.LatLng(43.270441,6.640888);
+			var latlng = new google.maps.LatLng(73.7714162,15.5914004);
 			var settings = {
 				zoom: 14,
-				center: new google.maps.LatLng(43.270441,6.640888),
+				center: new google.maps.LatLng(73.7714162,15.5914004),
 				mapTypeControl: false,
 				scrollwheel: false,
 				draggable: true,
@@ -2339,11 +2339,11 @@ Function Contact Map
 				content: contentString
 			});	
 			var companyImage = new google.maps.MarkerImage('https://pruthvi-villa.s3.ap-south-1.amazonaws.com/images/marker.png',
-				new google.maps.Size(58,63),<!-- Width and height of the marker -->
+				new google.maps.Size(58,63),
 				new google.maps.Point(0,0),
-				new google.maps.Point(35,20)<!-- Position of the marker -->
+				new google.maps.Point(35,20)
 			);
-			var companyPos = new google.maps.LatLng(43.270441,6.640888);	
+			var companyPos = new google.maps.LatLng(73.7714162,15.5914004);	
 			var companyMarker = new google.maps.Marker({
 				position: companyPos,
 				map: map,

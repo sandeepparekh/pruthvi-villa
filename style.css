@@ -1833,6 +1833,7 @@ Primary use:	Showcase Portfolio
 	
 	.text-align-center .hero-title, #hero.has-image .hero-title {
 		text-align:center;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	}
 	
 	.hero-title span {
@@ -1878,6 +1879,7 @@ Primary use:	Showcase Portfolio
 	
 	.text-align-center .hero-subtitle, #hero.has-image .hero-subtitle{
 		text-align:center;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	}
 	
 	#hero.has-image .hero-subtitle:before, .text-align-center .hero-subtitle:before {
