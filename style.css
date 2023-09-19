@@ -3055,6 +3055,9 @@ Primary use:	Showcase Portfolio
 		flex-direction: row;
 		justify-content: center;
 		padding: 13px !important;
+		
+		flex-wrap: wrap;
+		gap: 27px;
 	}
 
 	.amenities .col-4 {
