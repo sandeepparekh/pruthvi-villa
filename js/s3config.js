@@ -1,0 +1,1 @@
+var s3BaseUrl = 'D:/appvent/projects/images';
